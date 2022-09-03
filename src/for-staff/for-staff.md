@@ -123,7 +123,7 @@ https://scratch.mit.edu/
 ## 座席配置
 
 <img
-src="./images/2022-08-30-02-49-06.png" width="300"/>
+src="./images/image1.png" width="300"/>
 
 
 ## その他
