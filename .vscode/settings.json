@@ -1,0 +1,24 @@
+{
+    "pasteImage.basePath": "${currentFileDir}/images",
+
+    // VSCode内プレビュー用
+    "markdown.styles": ["./src/preview.css", "./src/style.css"],
+
+    // PDF出力設定
+    "markdown-pdf.includeDefaultStyles": false,
+    "markdown-pdf.styles": ["./src/style.css"],
+    "markdown-pdf.breaks": true,
+    "markdown-pdf.format": "A4",
+    "markdown-pdf.margin.top": "1cm",
+    "markdown-pdf.margin.right": "1cm",
+    "markdown-pdf.margin.bottom": "1cm",
+    "markdown-pdf.margin.left": "1cm",
+    "markdown-pdf.headerTemplate": " ",
+    "markdown-pdf.footerTemplate": "<span class='pageNumber'></span>",
+    "markdown-pdf.outputDirectory": "dist",
+
+    "[css]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.css-language-features",
+    }
+}
