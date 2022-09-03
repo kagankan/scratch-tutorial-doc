@@ -1,0 +1,119 @@
+body {
+
+    /* カラーユニバーサルデザイン推奨配色 */
+    /* https://www.dic-graphics.co.jp/navi/color/ud.html */
+    --red: #ff4b00;
+    --red-light: #ff4b001a;
+    --yellow: rgb(255, 241, 0);
+    --green: rgb(3, 175, 122);
+    --blue: #005aff;
+    --blue-light: #005aff1a;
+    --sky: rgb(77, 196, 255);
+
+    --color-accent: var(--blue);
+    --color-accent-light: var(--blue-light);
+
+    --font-default: "UD デジタル 教科書体 NK-R", sans-serif;
+    --font-bold: "UD デジタル 教科書体 NK-B", sans-serif;
+    --font-gothic: "源暎エムゴv2", "BIZ UDPGothic", sans-serif;
+
+    padding-inline: 2em;
+    font-family: var(--font-default);
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--font-gothic);
+    font-weight: 900;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-left: -1em;
+    margin-bottom: 0.5em;
+    padding-left: 10px;
+    font-family: var(--font-gothic);
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--color-accent-light) 80%, transparent);
+    border-radius: 0.2em 0 0 0.2em;
+    border-color: var(--color-accent);
+    border-width: 0 0 2px 8px;
+    border-style: solid;
+}
+
+h3 {
+    font-family: var(--font-gothic);
+    font-weight: 700;
+}
+
+strong {
+    font-family: var(--font-gothic);
+    font-weight: 700;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 0.5px solid black;
+}
+
+table th {
+    border-bottom: 1px solid black;
+}
+
+table td {
+    border-top: 0.5px solid black;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--sky);
+}
+
+/* 手順 */
+.work {
+    --color-accent: var(--red);
+    --color-accent-light: var(--red-light);
+    counter-reset: step;
+    margin-inline: -2em;
+    padding-inline: 2em;
+    background-color: var(--red-light);
+    border-radius: 0.8em;
+    border: solid 2px var(--red);
+}
+
+.work h2 {
+    background-color: var(--red-light);
+
+}
+
+.work h4::before {
+    counter-increment: step;
+    display: inline-block;
+    content: counter(step);
+    margin-right: 12px;
+    padding: 0.2em 0.4em;
+    border-radius: 9999px;
+    background-color: var(--red);
+    color: #fff;
+    line-height: 1;
+    font-size: 1.2em;
+}
+
+/* 「小さく分けよう」 */
+.divide {}
+
+/* 段組み */
+.columns-two {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* 改ページ */
+hr {
+    visibility: hidden;
+    break-after: page;
+}
