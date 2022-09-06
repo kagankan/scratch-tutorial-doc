@@ -35,36 +35,45 @@
 2. マネするだけではなく、「どうして動く？」や「変えてみたらどうなる？」を考えよう！
 3. わからないことがあるときは、周りの友達や、スタッフさんに質問しよう！
 
+---
+
 ## 考え方のコツ
 
-1. 「小さく分けて考える」
-2. 「頭の中で動かしてみる」
-3. 「大事なところを見つけ出す」
+1. <span class="divide">小さく分けて考える</span>
+いきなりゲームの全部を考え始めると大変だ。小さく分けて考えてみたら、一つ一つは簡単かもしれない。
 
----
+2. <span class="simulate">頭の中で動かしてみる</span>
+プログラムを一度頭の中で動かしてみて、どんな風に動くのかシミュレーションしよう。
+
+3. <span class="find">大事なところを見つけ出す</span>
+プログラムを直したいとき、変えなくてはいけないところはごく一部なことが多い。直すために必要なところはどこか見つけ出そう。
 
 ## プログラミングって？
 コンピューターに指示をする命令を作ることをプログラミングと言います。
 この教室では、Scratch（スクラッチ）というソフトを使ってプログラミングをします。
 
-<img src="./images/Scratchlogo.svg" alt="" width="200" />
+<div class="columns-two">
 
-<img src="./images/2022-09-03-15-50-55.png" alt="" width="400" />
+<img src="./images/Scratchlogo.svg" alt="" width="150" />
+<img src="./images/2022-09-03-15-50-55.png" alt="" width="300" />
+
+</div>
 
 ## スクラッチの使い方
 
-iPad（アイパッド）のカメラでQRコードを撮影して、Safari（サファリ）でスクラッチを開きましょう。
+iPad（アイパッド）のカメラでQRコードを撮影して、スクラッチを開きましょう。
 
-<img src="./images/qrcode_scratch.mit.edu.png" alt="" width="200" />
+<img src="./images/qrcode_scratch.mit.edu.png" alt="" width="150" />
 
 https://scratch.mit.edu/projects/editor/
 
+---
 
 ## ブロック
 
 画面の左側に並んでいる、色のついたパーツを **「ブロック」** と言います。
 
-![](./images/2022-08-30-03-52-00.png)
+<img src="./images/2022-08-30-03-52-00.png" alt="" width="300" />
 
 ブロックには、画面にいるキャラクターに与える**命令**が書いてあります。
 
@@ -83,7 +92,9 @@ https://scratch.mit.edu/projects/editor/
 
 </div>
 
-## プログラム（スクリプト）
+---
+
+## プログラム（スクリプト/コード）
 
 ブロックをつなげて **「プログラム」** を作ります。
 スクラッチでは **「スクリプト」** や **「コード」** とも言います。
@@ -92,38 +103,59 @@ https://scratch.mit.edu/projects/editor/
 <div class="work">
 
 ## れんしゅう 2 ネコを歩かせよう
-下に書いてあるプログラムを作って、ネコを歩かせましょう。
 
-<img src="./images/image14.png" alt="" width="200" />
+<div class="columns-two">
 
-
+このプログラムを作って、ネコを歩かせましょう。
 完成したら、 <img src="./images/image15.png" alt="旗" width="30" /> をクリックしてスタート！
+
+<img src="./images/image14.png" alt="" width="180" style="display: block; margin-top: -60px;" />
+
+</div>
+
 
 ネコが画面からいなくなっちゃったときは、ネコをドラッグして真ん中に戻しましょう。
 全く見えなくなっていたら、 <img src="./images/image16.png" alt="" height="30" /> をクリックして、動かしましょう。
 
 ## れんしゅう 3 いろいろ試してみよう
 
-<div class="columns-two">
+<div class="columns-three">
+<div>
 
-#### 「もし端に着いたら、跳ね返る」
-<img src="./images/image17.png" alt="" width="200" />
+#### 「もし端に着いたら、<br>跳ね返る」
+<img src="./images/image17.png" alt="" width="150" />
+
+</div>
+<div>
 
 #### 「回転方法を左右のみにする」
-<img src="./images/image18.png" alt="" width="200" />
+<img src="./images/image18.png" alt="" width="150" />
 
-#### 「○歩動かす」の数字を変える
-<img src="./images/image19.png" alt="" width="200" />
+</div>
+<div>
+
+#### 「○歩動かす」の<br>数字を変える
+<img src="./images/image19.png" alt="" width="150" />
+
+</div>
+<div>
 
 #### 「○度回す」 
-<img src="./images/image20.png" alt="" width="200" />
+<img src="./images/image20.png" alt="" width="140" />
+
+</div>
+<div>
 
 #### 「次のコスチュームにする」
-<img src="./images/image21.png" alt="" width="200" />
+<img src="./images/image21.png" alt="" width="140" />
+
+</div>
+<div>
 
 #### 「○秒待つ」
-<img src="./images/image22.png" alt="" width="200" />
+<img src="./images/image22.png" alt="" width="140" />
 
+</div>
 </div>
 </div>
 
@@ -154,7 +186,7 @@ https://scratch.mit.edu/projects/editor/
 
 <img src="./images/image31.png" alt="" width="200" />
 
-### 小さく分けよう
+### <span class="divide">小さく分けて考える</span>
 まずは、このゲームを作るために必要なものを分解しましょう。
 
 - タッチでネコを動かす。
@@ -166,32 +198,34 @@ https://scratch.mit.edu/projects/editor/
 
 #### これまでに作ったプログラムを保存したことを確認して、<br>「ファイル」→「新規」で新しいプログラムを作る。
 
-<img src="./images/image32.png" alt="" width="200" />
+<img src="./images/image32.png" alt="" width="150" />
 
-#### ネコの大きさを小さくしておく
-ネコのスプライトをクリックして、「大きさ」の数字を「70」にしましょう。
+#### ネコのスプライトの「大きさ」の数字を「70」にして、小さくしましょう。
 
 <img src="./images/image40.png" alt="" width="300" />
 
+### プログラム
+
+
+<img src="./images/image34.png" alt="" width="500" />
 
 #### このプログラムを動かすとどうなるか、まずは頭の中で動かしてみよう
+<span class="simulate">頭の中で動かしてみる</span> 図に書きこんで、ネコがどんな動きをするかイメージしよう。 
 
-<img src="./images/image34.png" alt="" />
+<!-- 考えるスペース -->
+
+<img src="./images/2022-09-04-17-53-46.png" alt="" width="500" />
 
 #### 上のプログラムをつくろう
 
 #### <img src="./images/image15.png" alt="旗" width="30" /> をクリックして、ネコがタッチにくっついて動くことを確認する。
 
-遊ぶときは <img src="./images/2022-09-03-16-49-12.png" alt="全画面ボタン" width="30" /> を押して、全画面にして遊ぼう
-（そうしないと、タッチ操作がドラッグ操作になってしまうため）
-
-うまくいかないときは、プログラムを直そう。
-うまくできていたら次に進みます。
-
-
+遊ぶときは <img src="./images/2022-09-03-16-49-12.png" alt="全画面ボタン" width="30" /> を押して、全画面にして遊ぼう（そうしないと直接ネコを動かしてしまう）。
+うまくいかないときは、プログラムを直そう。うまくできていたら次に進みます。
 
 </div>
 
+---
 
 ## スプライト
 画面の中で動かす絵のことを **「スプライト」** と言います。
@@ -201,7 +235,7 @@ https://scratch.mit.edu/projects/editor/
 
 <div class="work">
 
-### サメがネコを追いかける<br>・ネコがサメに当たったらゲームオーバーにする
+### サメがネコを追いかける
 
 #### 右下のスプライト追加ボタンをクリック。
 
@@ -215,9 +249,13 @@ https://scratch.mit.edu/projects/editor/
 <img src="./images/image38.png" alt="" />
 
 #### 旗をクリックしてゲームをスタートして、サメがネコに向かって動いているか確認する。
-うまくいかないときは、プログラムを直そう。
-うまくいったら次に進もう。
+うまくいかないときは、プログラムを直そう。うまくいったら次に進もう。
 
+</div>
+
+<div class="work">
+
+### ネコがサメに当たったらゲームオーバーにする
 #### ネコがサメに当たったらゲームが終わるように、ネコのプログラムを追加する
 <img src="./images/image39.png" alt="" />
 
@@ -226,6 +264,9 @@ https://scratch.mit.edu/projects/editor/
 
 </div>
 
+---
+
+<div class="work">
 
 ### 星を取ったらクリアする
 
@@ -235,22 +276,30 @@ https://scratch.mit.edu/projects/editor/
 
 #### ネコのプログラムを追加する。
 
-<img src="./images/cat-star-code.png" alt="" width="300" />
+<img src="./images/cat-star-code.png" alt="" width="200" />
 
-#### 旗をクリックして、星にあたったら「やったー！」を言った後にゲームが終了するか確認する。
+#### 旗をクリックして、星にあたったら「やったー！」を言ってゲームが終了するか確認する。
 
+</div>
+
+<div class="work">
 
 ### 背景を変える
 
-この背景は「Underwater2」という名前です。
+#### 画面右下の「背景を選ぶ」をクリック
 
-<img src="./images/image41.png" alt="" />
-<img src="./images/image42.png" alt="" />
+<img src="./images/image41.png" alt="" width="50" />
 
+#### 「Underwater2」 <img src="./images/image42.png" alt="" width="50" /> を探してクリック
+
+</div>
+
+---
 
 ## メッセージ
 「メッセージ」は、他のスプライトに命令を送るための機能です。
-<img src="./images/image43.png" alt="" />
+
+<img src="./images/image43.png" alt="" width="300" />
 
 <div class="work">
 
@@ -258,12 +307,16 @@ https://scratch.mit.edu/projects/editor/
 サメに食べられたとき、音を鳴らしたり、「ゲームオーバー」の文字を出したりしてみましょう。
 #### メッセージ 1 の横の▼をクリック、「新しいメッセージ」をクリックして、「ゲームオーバー」のメッセージを作成します。
 
-<img src="./images/image44.png" alt="" />
-<img src="./images/image45.png" alt="" />
-<img src="./images/image46.png" alt="" />
+<img src="./images/image44.png" alt="" width="400" />
 
 #### ネコに、ゲームオーバーのメッセージを送るプログラムを追加します。
+
+<img src="./images/image45.png" alt="" width="500" />
+
 #### サメのプログラムに、ゲームオーバーのとき音を鳴らすプログラムを追加します。
+
+<img src="./images/image46.png" alt="" width="500" />
+
 #### 旗をクリックしてゲームをスタートして、ゲームオーバーのとき音がなるか確かめる。
 
 
@@ -271,22 +324,23 @@ https://scratch.mit.edu/projects/editor/
 
 スプライトの「描く」をクリックして、手書きする。
 
-<img src="./images/image47.png" alt="" />
-<img src="./images/image48.png" alt="" />
+<img src="./images/image47.png" alt="" width="100" />
+<img src="./images/image48.png" alt="" width="200" />
 
 
 #### ゲームオーバーの文字のプログラムを作る
 
-<img src="./images/image49.png" alt="" />
+<img src="./images/image49.png" alt="" width="250" />
 
 
 #### 旗をクリックしてゲームをスタートして、ゲームオーバーが出るか確認する。
-完成！
+
+## つくったプログラムを保存しよう
+
+終わったら、プログラムを保存します。
 
 </div>
 
-## つくったプログラムを保存しよう
-終わったら、手を上げてスタッフを呼んで、プログラムを保存します。
 
 <div class="work">
 
@@ -294,30 +348,29 @@ https://scratch.mit.edu/projects/editor/
 
 例えば・・
 
-- 敵の速さを変える
-- ネコの速さを変える
-- 敵を増やす
-- ゲームオーバーを参考にして、ゲームクリアを作る
+- **ネコの速さを変える**
+- **敵の速さを変える**
+- **敵を増やす**
+- ゲームオーバーを参考にして、**ゲームクリア画面を作る**
 
 その他にもやってみたいことがあればやってみよう。
-
-「大事なものを見つけ出す」
-どこを変えたらいいんだろう？
-動く速さを変えたいから、「動き」に関係あるところを探せばいいんだな。
-動きは青いブロックだ。
-
 </div>
+
+<span class="find">大事なところを見つけ出す</span>
+
+<img src="./images/duck.png" alt="" width="50" /> ＜ 「ネコの速さを変える」には、どこを変えたらいいんだろう…？
+まずは、「ネコを動かしているブロック」を見つけなきゃいけないね。 ＞ <img src="./images/duck-2.png" alt="" width="50" />
+<img src="./images/duck.png" alt="" width="50" /> ＜そのブロックで動かす量を多くしたり、少なくしたりすればいいんだ！
+
 
 ## 次回の予定
 第2 回 10/9（土）
 iPadの充電を忘れずに、来てください。
 
-## 参考サイト
+## スクラッチを使うときの参考サイト
 プログラムの参考を探したいとき
 「Ｗｈｙ！？プログラミング | NHK for School」
 https://www.nhk.or.jp/school/sougou/programming/
-
-https://www.nhk.or.jp/school/sougou/texico/
 
 
 スクラッチの使い方を調べたいとき

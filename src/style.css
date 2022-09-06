@@ -9,6 +9,8 @@ body {
     --blue: #005aff;
     --blue-light: #005aff1a;
     --sky: rgb(77, 196, 255);
+    --pink: rgb(255, 128, 130);
+    --orange: rgb(246, 170, 0);
 
     --color-accent: var(--blue);
     --color-accent-light: var(--blue-light);
@@ -19,6 +21,7 @@ body {
 
     padding-inline: 2em;
     font-family: var(--font-default);
+    line-height: 1.5;
 }
 
 h1 {
@@ -28,11 +31,10 @@ h1 {
 }
 
 h2 {
-    margin-top: 1em;
-    margin-left: -1em;
     margin-bottom: 0.5em;
     padding-left: 10px;
     font-family: var(--font-gothic);
+    font-size: 1.5em;
     font-weight: 700;
     background-image: linear-gradient(to right, var(--color-accent-light) 80%, transparent);
     border-radius: 0.2em 0 0 0.2em;
@@ -41,18 +43,45 @@ h2 {
     border-style: solid;
 }
 
+h2:not(:first-child) {
+    margin-top: 1.5em;
+
+}
+
+:where(h2)~*:where(:not(.work)) {
+    padding-left: 1em;
+}
+
 h3 {
     font-family: var(--font-gothic);
     font-weight: 700;
+    line-height: 1.3;
 }
+
+h3:not(:first-child) {
+    margin-top: 1em;
+}
+
+/* h4 {} */
+
+h4:not(:first-child) {
+    margin-top: 1em;
+}
+
 
 strong {
     font-family: var(--font-gothic);
     font-weight: 700;
 }
 
-ul {
-    padding-left: 2em;
+ul,
+ol {
+    padding-left: 2.5em;
+}
+
+:where(ul, ol)>ul,
+:where(ul, ol)>ol {
+    padding-left: 1.5em;
 }
 
 table {
@@ -73,13 +102,24 @@ a {
     color: var(--sky);
 }
 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+:where(h2, h3)~img {
+    display: block;
+    margin-inline: auto;
+}
+
 /* 手順 */
 .work {
     --color-accent: var(--red);
     --color-accent-light: var(--red-light);
     counter-reset: step;
-    margin-inline: -2em;
-    padding-inline: 2em;
+    margin-block: 1em;
+    margin-inline: -1em;
+    padding: 0.5em 2em;
     background-color: var(--red-light);
     border-radius: 0.8em;
     border: solid 2px var(--red);
@@ -90,21 +130,51 @@ a {
 
 }
 
+.work h4 {
+    margin-left: 2.0em;
+    text-indent: -2.0em;
+}
+
 .work h4::before {
     counter-increment: step;
-    display: inline-block;
+    margin-right: 0.5em;
     content: counter(step);
-    margin-right: 12px;
-    padding: 0.2em 0.4em;
+    padding: 0.2em 0.5em;
     border-radius: 9999px;
     background-color: var(--red);
+    font-family: var(--font-gothic);
+    font-weight: 700;
     color: #fff;
     line-height: 1;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /* 「小さく分けよう」 */
-.divide {}
+.divide,
+.simulate,
+.find {
+    display: inline-block;
+    border-radius: 9999px;
+    font-family: var(--font-gothic);
+    /* border: 2px solid var(--color-accent); */
+    /* color: var(--color-accent); */
+    background-color: var(--color-accent);
+    color: #fff;
+    font-weight: 700;
+    padding: 0.1em 0.6em;
+}
+
+.divide {
+    --color-accent: var(--sky);
+}
+
+.simulate {
+    --color-accent: var(--pink);
+}
+
+.find {
+    --color-accent: var(--orange);
+}
 
 /* 段組み */
 .columns-two {
@@ -112,8 +182,16 @@ a {
     grid-template-columns: auto auto;
 }
 
+.columns-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* 改ページ */
 hr {
     visibility: hidden;
+    height: 0;
+    margin: 0;
+    border: none;
     break-after: page;
 }
