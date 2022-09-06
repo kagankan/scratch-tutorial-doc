@@ -1,6 +1,6 @@
 # 荏原平塚学園 プログラミング教室<br>スタッフ向けプリント👨‍🏫
 <div style="text-align: right;">
-最終更新 2022年9月1日 岸 嘉丸
+最終更新 2022年9月4日 岸 嘉丸
 </div>
 
 <div class="work">
@@ -132,8 +132,7 @@ https://scratch.mit.edu/
 
 ## 座席配置
 
-<img
-src="./images/image1.png" width="300"/>
+<img src="./images/image1.png" width="300"/>
 
 
 ## その他
