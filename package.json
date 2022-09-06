@@ -1,0 +1,13 @@
+{
+  "name": "scratch-tutorial-doc",
+  "version": "1.0.0",
+  "scripts": {
+    "publish": "md-to-pdf --config-file ./md-to-pdf.config.js ./src/lesson1/lesson1.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kagankan/scratch-tutorial-doc.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
