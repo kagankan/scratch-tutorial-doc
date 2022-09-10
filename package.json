@@ -2,7 +2,8 @@
   "name": "scratch-tutorial-doc",
   "version": "1.0.0",
   "scripts": {
-    "publish": "md-to-pdf --config-file ./md-to-pdf.config.js ./src/lesson1/lesson1.md"
+    "watch": "md-to-pdf -w --config-file ./md-to-pdf.config.js ./src/lesson2/lesson2.md",
+    "publish": "md-to-pdf --config-file ./md-to-pdf.config.js ./src/lesson2/lesson2.md"
   },
   "repository": {
     "type": "git",
