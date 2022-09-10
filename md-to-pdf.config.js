@@ -12,19 +12,19 @@ module.exports = {
             font-size: 11px;
           }
         </style>
-        <section>
-          <span class="title"></span>
-          <span class="date"></span>
-        </section>
         `,
+        // <section>
+        //   <span class="title"></span>
+        //   <span class="date"></span>
+        // </section>
     footerTemplate: /* html */ `
         <section>
           <div>
-            Page <span class="pageNumber"></span>
-            of <span class="totalPages"></span>
+            <span class="pageNumber"></span>
           </div>
         </section>
         `,
+        // <span class="totalPages"></span>
   },
   marked_options: { breaks: true },
 };
