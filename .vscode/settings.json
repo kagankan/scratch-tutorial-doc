@@ -1,5 +1,5 @@
 {
-    "pasteImage.basePath": "${currentFileDir}/images",
+    "pasteImage.path": "${currentFileDir}/images",
 
     // VSCode内プレビュー用
     "markdown.styles": ["./src/preview.css", "./src/style.css"],
