@@ -160,7 +160,7 @@ img {
 .divide,
 .simulate,
 .find {
-    display: inline-block;
+    display: inline;
     border-radius: 9999px;
     font-family: var(--font-gothic);
     /* border: 2px solid var(--color-accent); */
