@@ -47,7 +47,6 @@ h2 {
 
 h2:not(:first-child) {
     margin-top: 1.5em;
-
 }
 
 :where(h2)~*:where(:not(.work)) {
@@ -121,7 +120,7 @@ img {
     counter-reset: step;
     margin-block: 1em;
     margin-inline: -1em;
-    padding: 0.5em 2em;
+    padding: 0em 2em 0.5em;
     background-color: var(--color-accent-light);
     border-radius: 0.8em;
     border: solid 2px var(--color-accent);

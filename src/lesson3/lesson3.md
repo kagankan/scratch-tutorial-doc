@@ -60,14 +60,16 @@
 
 ## 「◯色に触れた」ブロック
 
-選択した色に触れているかどうかを調べることができるブロック。
+<div class="columns-two">
+選択した色に触れているかどうかを調べることができるブロック。<br/>
 今回は、地面に触れているかどうかを調べるのに使います。
-
 <img src="images/2022-10-10-04-09-39.png" alt="" width="200" />
+</div>
 
+<div class="columns-two" style="margin-top: 10px;">
+「スポイト」機能を使って、画面に表示されているのと同じ色を選択します。
 <img src="images/2022-10-10-04-10-35.png" alt="" width="200" />
-
-使うときは、「スポイト」機能を使って、同じ色を選択します。
+</div>
 
 <div class="work">
 
@@ -88,7 +90,9 @@
 
 <span class="simulate">頭の中で動かしてみる</span> ジャンプがどんな風に動くのかシミュレーションしよう。
 
-<div style="background: linear-gradient(white 90%, hsl(9, 100%, 20%) 90%); height: 350px;"></div>
+![](images/2022-10-16-03-07-03.png)
+
+---
 
 #### プログラムを作る
 
@@ -96,6 +100,61 @@
 #### <img src="images/flag.png" alt="旗" width="30" /> を押して、ジャンプできるか確認する。
 
 </div>
+
+<div class="work work--extra">
+
+## 実験してみよう
+
+一部の命令がなかったらどうなるだろう？　一つずつ外して試してみよう。
+実験した結果、どんな違いがあったか下の枠に書いておこう。
+
+<div class="columns-two" style="column-gap: 10px;">
+<div>
+
+**1. <img src="images/2022-10-16-03-42-47.png" alt="" height="36" /> がないとき**
+
+<img src="images/2022-10-16-04-26-59.png" alt="" width="150" />
+
+<div style="background: white; height: 2.2cm; border: black 1px solid; margin-top: 0.2cm;">
+<strong>実験結果：</strong>
+<img src="images/2022-10-16-03-42-47.png" alt="" height="24" /> がないと、
+</div>
+</div>
+<div>
+
+**2. <img src="images/2022-10-16-04-04-57.png" alt="" height="36" /> がないとき**
+
+<img src="images/2022-10-16-04-27-56.png" alt="" width="150" />
+
+<div style="background: white; height: 2.2cm; border: black 1px solid; margin-top: 0.2cm;">
+<strong>実験結果：</strong>
+<img src="images/2022-10-16-04-04-57.png" alt="" height="24" /> がないと、
+</div>
+</div>
+<div>
+
+**3. <img src="images/2022-10-16-04-10-35.png" alt="" height="36" /> がないとき**
+
+<img src="images/2022-10-16-04-28-34.png" alt="" width="150" />
+<div style="background: white; height: 2.2cm; border: black 1px solid; margin-top: 0.2cm;">
+<strong>実験結果：</strong>
+<img src="images/2022-10-16-04-10-35.png" alt="" height="24" /> がないと、
+</div>
+</div>
+</div>
+</div>
+
+<div class="work work--extra">
+
+## 発展　ジャンプ力を変えてみよう
+
+**1. ジャンプする高さ**
+**2. ジャンプするスピード**
+をそれぞれ変えてみよう。どの数字を変えたらいいだろう？
+
+
+</div>
+
 
 ---
 
@@ -139,7 +198,7 @@
 </div>
 
 #### コスチュームの名前をそれぞれ「つうじょう」「ダメージ」に変更する
-このあとプログラムを作るときに、この名前を使うよ。
+このあとプログラムを作るときに、この名前を使います。
 
 <img src="images/2022-10-10-04-57-32.png" alt="" width="300" />
 
@@ -151,7 +210,7 @@
 
 ![](images/2022-10-10-04-54-20.png)
 
-<div style="background:white; height: 350px;"></div>
+![](images/2022-10-16-03-18-34.png)
 
 ---
 
@@ -163,6 +222,21 @@
 
 </div>
 
+
+<div class="work work--extra">
+
+## 実験してみよう
+
+<img src="images/2022-10-16-03-28-43.png" alt="" height="30" /> がなかったらどうなるだろう？
+ためしに外してみて、実験してみよう（実験が終わったら戻しておこう）。
+
+<img src="images/2022-10-16-03-28-10.png" alt="" width="220" />
+
+<div style="background: white; border: black 1px solid; margin-top: 0.4cm; padding: 0.2cm;">
+<strong>実験結果：</strong> <img src="images/2022-10-16-03-28-43.png" alt="" height="30" /> がなかったら、<br/><br/><br/>
+</div>
+
+</div>
 
 <div class="work work--extra">
 

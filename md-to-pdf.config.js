@@ -2,7 +2,7 @@ module.exports = {
   stylesheet: "./src/style.css",
   pdf_options: {
     format: "A4",
-    margin: "10mm 10mm 20mm",
+    margin: "10mm 10mm 16mm",
     printBackground: true,
     headerTemplate: /* html */ `
         <style>
