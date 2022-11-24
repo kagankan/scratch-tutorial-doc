@@ -201,3 +201,29 @@ hr {
     border: none;
     break-after: page;
 }
+
+/* 吹き出し */
+.comment {
+    display: inline-block;
+    position: relative;
+    margin-left: 1em;
+    padding: 0.4em 1em;
+    background-color: var(--blue-light);
+    border-radius: 0.4em;
+    font-family: var(--font-gothic);
+}
+
+.comment::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    width: 0.8em;
+    height: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: inherit;
+    -webkit-mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1 2" preserveAspectRatio="none"><path d="M1,0 L0,1 L1,2 Z"/></svg>');
+}
