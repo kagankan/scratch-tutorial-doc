@@ -1,4 +1,5 @@
 module.exports = {
+  // css: `body { font-size: 1rem; }`,
   stylesheet: "./src/style.css",
   pdf_options: {
     format: "A4",
