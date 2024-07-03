@@ -227,3 +227,14 @@ hr {
     background-color: inherit;
     -webkit-mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1 2" preserveAspectRatio="none"><path d="M1,0 L0,1 L1,2 Z"/></svg>');
 }
+
+.comment.comment--right {
+    margin-left: 0;
+    margin-right: 1em;
+}
+
+.comment.comment--right::before {
+    right: auto;
+    left: 100%;
+    -webkit-mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1 2" preserveAspectRatio="none"><path d="M0,0 L1,1 L0,2 Z"/></svg>');
+}

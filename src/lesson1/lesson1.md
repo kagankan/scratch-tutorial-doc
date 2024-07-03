@@ -1,9 +1,5 @@
 # プログラミング教室 第 1 回<br>オニごっこゲームをつくろう
 
-<div style="text-align: right;">
-2022 年 9 月 10 日 岸 嘉丸
-</div>
-
 ## この教室でやること
 
 - 見本をマネしながら **プログラミングの練習** をする。
@@ -12,12 +8,12 @@
 
 ## 年間スケジュール
 
-第1回 9/10（土） オニごっこゲーム
-第2回 10/8（土） くだもの狩りゲーム
-第3回 10/22（土） アクションゲーム
-第4回 11/12（土） シューティングゲーム
-第5回 11/26（土） 自分のゲームを作ろう
-第6回 12/10（土） 発表会
+第1回 9/9（土） オニごっこゲーム
+第2回 9/30（土） くだもの狩りゲーム
+第3回 10/14（土） アクションゲーム
+第4回 11/11（土） シューティングゲーム
+第5回 11/25（土） 自分のゲームを作ろう
+第6回 12/9（土） 発表会
 
 ## 教室の進め方
 
@@ -61,9 +57,7 @@
 
 ## スクラッチの使い方
 
-iPad（アイパッド）のカメラでQRコードを撮影して、スクラッチを開きましょう。
-
-<img src="./images/qrcode_scratch.mit.edu.png" alt="" width="150" />
+iPad（アイパッド）で「スクラッチ」を検索して、スクラッチのページを開きましょう。「作る」をクリックして、編集画面を開きましょう。
 
 https://scratch.mit.edu/projects/editor/
 
@@ -166,9 +160,9 @@ https://scratch.mit.edu/projects/editor/
 
 <div class="work">
 
-## れんしゅう 5 つくったプログラムを保存しよう
+## れんしゅう 4 つくったプログラムを保存しよう
 
-れんしゅう 4 が終わったら、プログラムを**保存**します。
+れんしゅう 3 が終わったら、プログラムを**保存**します。
 
 <img src="./images/2022-09-03-16-39-59.png" alt="" width="250" />
 
@@ -181,7 +175,7 @@ https://scratch.mit.edu/projects/editor/
 
 <div class="work">
 
-## れんしゅう 6 オニごっこゲームを作ろう
+## れんしゅう 5 オニごっこゲームを作ろう
 サメから逃げながら、星を取るゲームを作ります。
 
 <img src="./images/image31.png" alt="" width="200" />
@@ -200,23 +194,16 @@ https://scratch.mit.edu/projects/editor/
 
 <img src="./images/image32.png" alt="" width="150" />
 
+---
+
 #### ネコのスプライトの「大きさ」の数字を「70」にして、小さくしましょう。
 
 <img src="./images/image40.png" alt="" width="300" />
 
-### プログラム
-
+#### ネコのプログラムをつくろう
 
 <img src="./images/image34.png" alt="" width="500" />
 
-#### このプログラムを動かすとどうなるか、まずは頭の中で動かしてみよう
-<span class="simulate">頭の中で動かしてみる</span> 図に書きこんで、ネコがどんな動きをするかイメージしよう。 
-
-<!-- 考えるスペース -->
-
-<img src="./images/2022-09-04-17-53-46.png" alt="" width="500" />
-
-#### 上のプログラムをつくろう
 
 #### <img src="./images/image15.png" alt="旗" width="30" /> をクリックして、ネコがタッチにくっついて動くことを確認する。
 
@@ -341,6 +328,24 @@ https://scratch.mit.edu/projects/editor/
 
 </div>
 
+---
+
+<div class="work work--extra">
+
+## チャレンジ　ネコの速さを変えよう
+
+ネコが動く速さを、もっと速くしてみよう。
+
+</div>
+
+<span class="find">大事なところを見つけ出す</span>
+
+<img src="./images/duck.png" alt="" width="50" /><span class="comment">「ネコの速さを変える」には、どこを変えたらいいんだろう…？</span>
+
+<span class="comment comment--right">まずは、「ネコを動かしているブロック」を見つけなきゃいけないね。</span><img src="./images/duck-2.png" alt="" width="50" />
+
+<img src="./images/duck.png" alt="" width="50" /><span class="comment">そのブロックで動かす量を多くしたり、少なくしたりすればいいんだ！</span>
+
 
 <div class="work">
 
@@ -356,16 +361,6 @@ https://scratch.mit.edu/projects/editor/
 その他にもやってみたいことがあればやってみよう。
 </div>
 
-<span class="find">大事なところを見つけ出す</span>
-
-<img src="./images/duck.png" alt="" width="50" /> ＜ 「ネコの速さを変える」には、どこを変えたらいいんだろう…？
-まずは、「ネコを動かしているブロック」を見つけなきゃいけないね。 ＞ <img src="./images/duck-2.png" alt="" width="50" />
-<img src="./images/duck.png" alt="" width="50" /> ＜そのブロックで動かす量を多くしたり、少なくしたりすればいいんだ！
-
-
-## 次回の予定
-第2 回 10/9（土）
-iPadの充電を忘れずに、来てください。
 
 ## スクラッチを使うときの参考サイト
 プログラムの参考を探したいとき

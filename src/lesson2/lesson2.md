@@ -1,9 +1,5 @@
 # プログラミング教室 第 2 回<br>くだもの拾いゲームをつくろう
 
-<div style="text-align: right;">
-2022年 10月 8日 岸 嘉丸
-</div>
-
 ## 心得
 
 1. どうなるかわからないときは、たくさん試してみよう！ たくさん失敗しよう！
@@ -62,7 +58,7 @@
 <!-- 新規作成する。 -->
 <!-- <img src="./images/image32.png" alt="" width="300" /> -->
 
-#### ボウルのスプライトを追加する。
+#### ボウル (Bowl) のスプライトを追加する。
 
 <img src="./images/image33.png" alt="" width="100" />
 
@@ -71,16 +67,20 @@
 
 <img src="./images/2022-10-01-18-08-08.png" alt="" width="300" />
 
+横は x<span style="font-size: 50%">（エックス）</span> 座標！: <img src="./images/move-x.png" alt="" width="400" />
+
 #### <img src="./images/flag.png" alt="" width="30" /> をクリックして、キーボードで動かせることを確認する。
 うまくいかないときは、プログラムを直そう。うまくできていたら次に進みます。
 
 </div>
 
-### x軸（横の動き）
+<div class="work work--extra">
 
-<img src="./images/move-x.png" alt="" width="500" />
+## チャレンジ 1 ボウルの動きを速くしてみよう
 
----
+<span class="find">大事なところを見つけ出す</span> 動きを変えるにはどのブロックを変えればいいだろう？
+
+</div>
 
 ## クローン
 クローンは、分身をつくる機能で、おなじスプライトをたくさん表示させたいときに使います。

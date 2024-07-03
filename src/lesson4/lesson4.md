@@ -1,8 +1,5 @@
 # プログラミング教室 第 4 回<br>シューティングゲームをつくろう
 
-<div style="text-align: right;">
-2022年 11月 12日 岸 嘉丸
-</div>
 
 ## 心得
 
@@ -45,13 +42,15 @@
 
 <img src="images/image11.png" alt="" width="500" />
 
-#### <img src="images/flag.png" alt="旗" width="30" /> をクリックして、「→（右矢印キー）」を押すとプレイヤーが右に、「←（左矢印キー）」を押すとプレイヤーが左に動くことを確認する。
+#### <img src="images/flag.png" alt="旗" width="30" /> をクリックして、キーボードでプレイヤーを操作できることを確認する。
 
 </div>
 
 <div class="work work--extra">
 
 ## 発展　移動スピードを変えてみよう
+
+<span class="find">大事なところを見つけ出す</span> 動くスピードを速くしたり遅くしたりしてみよう。
 
 </div>
 
@@ -80,24 +79,24 @@
 
 ---
 
-#### ビームをプログラムして、スペースキーで発射されるようにする。
+#### <span class="simulate">頭の中で動かしてみる</span> プログラムをシミュレーションする。
+
 
 <img src="images/image16.png" alt="" width="500" />
+
+<img src="images/2023-11-03-21-54-13.png" alt="" width="500" />
+
+#### ビームをプログラムして、スペースキーで発射されるようにする。
 
 #### <img src="images/flag.png" alt="旗" width="30" /> をクリックして、スペースキーを押すとビームが出るか確認する。
 ビームが真ん中から発射されないときは、スプライトがまんなかにあるか確認しよう。
 
 <img src="images/image17.png" alt="" width="500" />
 
-また、スペースキーがうまく反応しないときは、「A」キーなど、別のキーが押されたときに変えてみよう。
-
 </div>
 
-<div class="work work--extra">
-
-## 発展 連射スピードを変えてみよう
-
-</div>
+<!-- ## 発展 連射スピードを変えてみよう -->
+<!-- ここに入れたかったが、紙面の都合上カット -->
 
 ---
 
@@ -105,12 +104,12 @@
 
 ## 敵を並べる
 
-#### <span class="simulate">頭の中で動かしてみる</span> 敵のプログラムをシミュレーションする。
+#### <span class="simulate">頭の中で動かしてみる</span> プログラムをシミュレーションする。
 
 <img src="images/image21.png" alt="" width="500" />
 
-<div style="background: white;">
-<img src="images/xy-grid.png" alt="" style="opacity: 0.3;" />
+<div style="background: white; width: fit-content; margin: auto;">
+<img src="images/xy-grid.png" alt="" width="600" />
 </div>
 
 ---
@@ -193,7 +192,9 @@
 - 残りの敵の数を数えて、全部倒したらクリア画面を表示する
 - 全部倒したら、次のステージに進んで、もっとたくさんの敵が出てくる
 - 敵からもビームを出す
+- 連射の間隔を変える
 - クリアタイムを計測する
+- キャラクターや背景を変更する
 
 </div>
 
@@ -209,3 +210,36 @@
 ゲームを作る際の参考にするため、 **これまでのプリント** も持ってくるようにしましょう。
 **iPad**の充電を忘れずにして、来てください。
 
+---
+
+## 切り取り用
+
+<span class="simulate">頭の中で動かしてみる</span> で、キャラクターの動きをシミュレーションするときに使います。
+
+
+<!-- TODO: ビームと虫のカードを入れる -->
+
+
+<table style="margin: auto;">
+<tr>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-00.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-00.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-00.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-00.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-00.png" alt="" width="100" /></td>
+</tr>
+<tr>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+</tr>
+<tr>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+<td style="border: 1px solid black;"><img src="images/2023-11-03-21-59-58.png" alt="" width="100" /></td>
+</tr>
+</table>
